@@ -23,7 +23,7 @@ const PokemonDetails = () => {
   }
 
   return (
-    <div style={{ backgroundColor: generateColor(pokemon.id) }} className="max-w-xs mx-auto mt-10 p-4 border rounded-lg shadow-lg">
+    <div style={{ backgroundColor: generateColor(pokemon.id) }} className="max-w-xs mx-auto mt-10 p-4 border rounded-lg shadow-lg bg-slate-400">
     <div className="max-w-xs mx-auto mt-10 p-4 border rounded-lg shadow-lg bg-slate-700 -400">
       <div className="flex justify-between items-center">
         <Link to="/">
